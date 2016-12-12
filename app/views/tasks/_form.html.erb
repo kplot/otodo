@@ -10,6 +10,16 @@
       </ul>
     </div>
   <% end %>
+  
+  <div class="field">
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </div>
+  
+  <div class="field">
+    <%= f.label :finished %><br />
+    <%= f.check_box :finished %>
+  </div>
 
   <div class="actions">
     <%= f.submit %>
